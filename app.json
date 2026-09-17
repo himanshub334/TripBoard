@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "TripBoard",
+    "slug": "tripboard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.tripboard",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "TripBoard uses your location to show your current position while planning a trip."
+      }
+    },
+    "android": {
+      "package": "com.example.tripboard",
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
